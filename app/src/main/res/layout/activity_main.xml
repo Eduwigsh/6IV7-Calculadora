@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
-        android:id="@+id/txt_math5"
+        android:id="@+id/par1mat5"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -105,24 +105,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat5"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math4" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat4" />
 
     <EditText
-        android:id="@+id/txt_math17"
+        android:id="@+id/par2mat5"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat5"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math5"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math16" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat5"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat4" />
 
     <EditText
-        android:id="@+id/txt_math26"
+        android:id="@+id/promat5"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -131,23 +133,24 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math39"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math38" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat5"
+        app:layout_constraintTop_toBottomOf="@+id/promat4" />
 
     <EditText
-        android:id="@+id/txt_math39"
+        android:id="@+id/par3mat5"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat5"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math17"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math25" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat5"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat4" />
 
     <EditText
-        android:id="@+id/txt_math6"
+        android:id="@+id/par1mat6"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -155,12 +158,13 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat6"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math5" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat5" />
 
     <EditText
-        android:id="@+id/txt_math18"
+        android:id="@+id/par2mat6"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="1dp"
@@ -168,24 +172,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat6"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math6"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math17" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat6"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat5" />
 
     <EditText
-        android:id="@+id/txt_math27"
+        android:id="@+id/par3mat6"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat6"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math18"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math39" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat6"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat5" />
 
     <EditText
-        android:id="@+id/txt_math40"
+        android:id="@+id/promat6"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -194,11 +200,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math27"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math26" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat6"
+        app:layout_constraintTop_toBottomOf="@+id/promat5" />
 
     <EditText
-        android:id="@+id/txt_math7"
+        android:id="@+id/par1mat7"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -206,12 +212,13 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat7"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math6" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat6" />
 
     <EditText
-        android:id="@+id/txt_math19"
+        android:id="@+id/par2mat7"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
@@ -219,24 +226,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat7"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math6" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat6" />
 
     <EditText
-        android:id="@+id/txt_math28"
+        android:id="@+id/par3mat7"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat7"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math19"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math27" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat7"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat6" />
 
     <EditText
-        android:id="@+id/txt_math9"
+        android:id="@+id/par1mat9"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -244,12 +253,64 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat9"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math8" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat8" />
 
     <EditText
-        android:id="@+id/txt_math21"
+        android:id="@+id/propar1"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ingresa un valor"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/par1mat9" />
+
+    <EditText
+        android:id="@+id/propar2"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ingresa un valor"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/propar1"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat9" />
+
+    <EditText
+        android:id="@+id/propar3"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ingresa un valor"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/propar2"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat9" />
+
+    <EditText
+        android:id="@+id/semestre"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ingresa un valor"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/propar3"
+        app:layout_constraintTop_toBottomOf="@+id/promat9" />
+
+    <EditText
+        android:id="@+id/par3mat9"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
@@ -257,11 +318,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math30"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math29" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat9"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat8" />
 
     <EditText
-        android:id="@+id/txt_math41"
+        android:id="@+id/promat9"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -270,23 +331,24 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math21"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math31" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat9"
+        app:layout_constraintTop_toBottomOf="@+id/promat8" />
 
     <EditText
-        android:id="@+id/txt_math30"
+        android:id="@+id/par2mat9"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat9"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math9"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math20" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat9"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat8" />
 
     <EditText
-        android:id="@+id/txt_math8"
+        android:id="@+id/par1mat8"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -294,12 +356,13 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat8"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math7" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat7" />
 
     <EditText
-        android:id="@+id/txt_math20"
+        android:id="@+id/par2mat8"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="1dp"
@@ -307,24 +370,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math8"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math19" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat8"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat7" />
 
     <EditText
-        android:id="@+id/txt_math29"
+        android:id="@+id/par3mat8"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat8"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math20"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math28" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat8"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat7" />
 
     <EditText
-        android:id="@+id/txt_math4"
+        android:id="@+id/par1mat4"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -332,24 +397,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat4"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math3" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat3" />
 
     <EditText
-        android:id="@+id/txt_math16"
+        android:id="@+id/par2mat4"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat4"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math4"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math15" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat4"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat3" />
 
     <EditText
-        android:id="@+id/txt_math3"
+        android:id="@+id/par1mat3"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -357,36 +424,39 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat3"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math2" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat2" />
 
     <EditText
-        android:id="@+id/txt_math15"
+        android:id="@+id/par2mat3"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat3"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math3"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math14" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat3"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat2" />
 
     <EditText
-        android:id="@+id/txt_math24"
+        android:id="@+id/par3mat3"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat3"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math15"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math35" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat3"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat2" />
 
     <EditText
-        android:id="@+id/txt_math37"
+        android:id="@+id/promat3"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -395,11 +465,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math24"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math34" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat3"
+        app:layout_constraintTop_toBottomOf="@+id/promat2" />
 
     <EditText
-        android:id="@+id/txt_math35"
+        android:id="@+id/par3mat2"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="1dp"
@@ -407,24 +477,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat2"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math14"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math22" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat2"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat1" />
 
     <EditText
-        android:id="@+id/txt_math25"
+        android:id="@+id/par3mat4"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat4"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math16"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math24" />
+        app:layout_constraintStart_toEndOf="@+id/par2mat4"
+        app:layout_constraintTop_toBottomOf="@+id/par3mat3" />
 
     <EditText
-        android:id="@+id/txt_math38"
+        android:id="@+id/promat4"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -433,11 +505,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math25"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math37" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat4"
+        app:layout_constraintTop_toBottomOf="@+id/promat3" />
 
     <EditText
-        android:id="@+id/txt_math2"
+        android:id="@+id/par1mat2"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -445,24 +517,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat2"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math1" />
+        app:layout_constraintTop_toBottomOf="@+id/par1mat1" />
 
     <EditText
-        android:id="@+id/txt_math14"
+        android:id="@+id/par2mat2"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat2"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math2"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math13" />
+        app:layout_constraintStart_toEndOf="@+id/par1mat2"
+        app:layout_constraintTop_toBottomOf="@+id/par2mat1" />
 
     <EditText
-        android:id="@+id/txt_math34"
+        android:id="@+id/promat2"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -471,11 +545,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math35"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math33" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat2"
+        app:layout_constraintTop_toBottomOf="@+id/promat1" />
 
     <EditText
-        android:id="@+id/txt_math1"
+        android:id="@+id/par1mat1"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -483,24 +557,26 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat1"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_math13"
+        android:id="@+id/par2mat1"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat1"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math1"
+        app:layout_constraintStart_toEndOf="@+id/par1mat1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_math22"
+        android:id="@+id/par3mat1"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="1dp"
@@ -508,12 +584,13 @@
         android:ems="10"
         android:hint="Ingresa un valor"
         android:inputType="number"
+        android:onClick="promat1"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math13"
+        app:layout_constraintStart_toEndOf="@+id/par2mat1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_math33"
+        android:id="@+id/promat1"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -522,11 +599,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math22"
+        app:layout_constraintStart_toEndOf="@+id/par3mat1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_math31"
+        android:id="@+id/promat8"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -535,11 +612,11 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math29"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math32" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat8"
+        app:layout_constraintTop_toBottomOf="@+id/promat7" />
 
     <EditText
-        android:id="@+id/txt_math32"
+        android:id="@+id/promat7"
         android:layout_width="71dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
@@ -548,8 +625,8 @@
         android:hint="Ingresa un valor"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_math28"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math40" />
+        app:layout_constraintStart_toEndOf="@+id/par3mat7"
+        app:layout_constraintTop_toBottomOf="@+id/promat6" />
 
     <TextView
         android:id="@+id/textView10"
@@ -557,7 +634,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:text="Parcial 1"
-        app:layout_constraintBottom_toTopOf="@+id/txt_math1"
+        app:layout_constraintBottom_toTopOf="@+id/par1mat1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.761" />
@@ -566,23 +643,23 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="5dp"
-        android:text="Parcial 1"
-        app:layout_constraintBottom_toTopOf="@+id/txt_math13"
+        android:text="Parcial 2"
+        app:layout_constraintBottom_toTopOf="@+id/par2mat1"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="5dp"
-        android:text="Parcial 1"
-        app:layout_constraintBottom_toTopOf="@+id/txt_math22"
+        android:text="Parcial 3"
+        app:layout_constraintBottom_toTopOf="@+id/par3mat1"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
