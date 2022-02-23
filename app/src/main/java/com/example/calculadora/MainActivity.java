@@ -2,6 +2,7 @@ package com.example.calculadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -234,6 +235,20 @@ public class MainActivity extends AppCompatActivity {
         double propar2 = Double.parseDouble(propa2.getText().toString());
         double propar3 = Double.parseDouble(propa3.getText().toString());
         semestre.setText(String.valueOf((propar1+propar2+propar3)/3));
+
+    }
+    public  void  cambio (View view){
+        Intent i = new Intent(this,MainActivity2.class);
+        i.putExtra("promat1", promat1.getText());
+        i.putExtra("promat2", promat2.getText());
+        i.putExtra("promat3", promat3.getText());
+        i.putExtra("promat4", promat4.getText());
+        i.putExtra("promat5", promat5.getText());
+        i.putExtra("promat6", promat6.getText());
+        i.putExtra("promat7", promat7.getText());
+        i.putExtra("promat8", promat8.getText());
+        i.putExtra("promat9", promat9.getText());
+        startActivity(i);
 
     }
 }

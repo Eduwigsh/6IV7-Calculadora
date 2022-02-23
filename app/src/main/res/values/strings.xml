@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">calculadora</string>
+    <string name="m1">Materia 1</string>
+    <string name="m2">Materia 2</string>
+    <string name="m3">Materia 3</string>
+    <string name="m4">Materia 4</string>
+    <string name="m5">Materia 5</string>
+    <string name="m6">Materia 6</string>
+    <string name="m7">Materia 7</string>
+    <string name="m8">Materia 8</string>
+    <string name="m9">Materia 9</string>
+    <string name="btn"> lista</string>
+    <string name="btn2"> calficaciones</string>
+    <string name="t1">Extras </string>
+    <string name="t2">de mayor a menor  </string>
+    
+    
 </resources>
